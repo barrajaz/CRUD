@@ -20,6 +20,12 @@
                     <%= course.description %>
                 </td>
                 <td>
+                    <%= course.MaxStudents %>
+                </td>
+                <td>
+                    <%= course.cost %>
+                </td>
+                <td>
                     <a href="<%= `/course/${course._id}/edit` %>" onclick="return confirm(`Are you sure?`)">
                         Edit
                     </a>
